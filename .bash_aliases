@@ -1,1 +1,1 @@
-aliases RannaConsole='/usr/attack/./RannaConsole.sh'
+alias RannaConsole='/usr/attack/./RannaConsole.sh'
