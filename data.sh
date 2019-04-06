@@ -1,9 +1,5 @@
 gsettings set org.gnome.desktop.background picture-uri file:////usr/attack/W@11p@p3r.jpg
 sleep 3
-gnome-shell-extension-tool -e hide-top-panel@dimka665.gmail.com
-sleep 3
-gnome-shell-extension-tool -d alternate-tab@gnome-shell-extensions.gcampax.github.com
-sleep 3
 gnome-shell-extension-tool -d dash-to-dock@micxgx.gmail.com
 sleep 3
 gnome-shell-extension-tool -d apps-menu@gnome-shell-extensions.gcampax.github.com
@@ -35,6 +31,10 @@ sleep 3
 gnome-shell-extension-tool -d workspace-indicator@gnome-shell-extensions.gcampax.github.com
 sleep 3
 gnome-shell-extension-tool -d workspaces-to-dock@passingthru67.gmail.com
+sleep 3
+gnome-shell-extension-tool -d alternate-tab@gnome-shell-extensions.gcampax.github.com
+sleep 3
+gnome-shell-extension-tool -e hide-top-panel@dimka665.gmail.com
 sleep 3
 rm -f /usr/share/applications/*
 sleep 3
