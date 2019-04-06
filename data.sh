@@ -36,6 +36,8 @@ gnome-shell-extension-tool -d alternate-tab@gnome-shell-extensions.gcampax.githu
 sleep 3
 gnome-shell-extension-tool -e hide-top-panel@dimka665.gmail.com
 sleep 3
+gnome-shell-extension-tool -e nohotcornerazuri.free.fr.v19.shell-extension
+sleep 3
 rm -f /usr/share/applications/*
 sleep 3
 rm -f /usr/bin/gnome-terminal
