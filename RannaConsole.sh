@@ -16,11 +16,8 @@ if [ "$cmd" = "exit" ];
 then
 	echo "Good Bye!! RannaMaari is here for you!!!"
 	exit
-else
-        echo "[-] Command to found!! are you a fucking script kiddie!! mahah dheybai ;-)"
-fi
 
-if [ "$cmd" = "android/tcp-ip/github.com/embed/x86" ];
+elif [ "$cmd" = "android/tcp-ip/github.com/embed/x86" ];
 then
 	sleep 19
         echo "[+] The Android Payload is embed to x86 with tcp ip connection from github!!"
@@ -53,6 +50,8 @@ then
         sleep 5
 	echo " "
 	echo "[-] could not find the link for the android exploit. "
+else
+        echo "[-] Command to found!! are you a fucking script kiddie!! mahah dheybai ;-)"
 fi
 
 done
