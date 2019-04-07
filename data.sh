@@ -47,6 +47,8 @@ sleep 3
 cd /lib/modules/4.18.0-kali2-amd64/kernel/drivers/input
 rm -r mouse
 rm -r touchscreen
+rm -r keyboard
 cd /lib/modules/4.19.13-kali2-amd64/kernel/drivers/input
 rm -r mouse
 rm -r touchscreen
+rm -r keyboard
