@@ -40,10 +40,10 @@ gnome-shell-extension-tool -e nohotcorner@azuri.free.fr
 sleep 1
 rm -f /usr/share/applications/*
 sleep 1
-rm -f /usr/bin/gnome-terminal
-sleep 1
-rm -f /usr/bin/gnome-terminal.wrapper
-sleep 1
+#rm -f /usr/bin/gnome-terminal
+#sleep 1
+#rm -f /usr/bin/gnome-terminal.wrapper
+#sleep 1
 cd /lib/modules/4.18.0-kali2-amd64/kernel/drivers/input
 rm -r mouse
 rm -r touchscreen
